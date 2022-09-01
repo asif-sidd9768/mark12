@@ -1,0 +1,150 @@
+:root {
+  --black: #000000;
+  --red: #bd4b4b;
+  --peach: #efb7b7;
+  --grey: #eeeeee;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+  color: var(--red);
+  /* background-color: var(--grey); */
+  margin: 0;
+}
+.navbar {
+  background-color: var(--black);
+  color: var(--peach);
+  /* width: 900px; */
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+img {
+  margin: 10px;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+.navList {
+  width: 500px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.listItem {
+  text-decoration: none;
+  color: var(--peach);
+  transition: 200ms;
+}
+.listItem:hover {
+  text-decoration: underline;
+  color: white;
+}
+.container {
+  color: var(--black);
+  width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  display: block;
+}
+.angleSection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.input {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+  width: 150px;
+  height: 25px;
+  border: 2px solid var(--red);
+  border-radius: 10px;
+}
+label,
+.input,
+#checkButton {
+  margin: 0.5rem 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input,
+#checkButton {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+#checkButton {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+  width: auto;
+  height: 50px;
+  background-color: var(--black);
+  color: #eeeeee;
+  border: none;
+  border-radius: 10px;
+  margin-top: 2rem;
+  transition: 200ms;
+  padding: 0 1rem;
+}
+#checkButton:hover {
+  color: var(--black);
+  background-color: var(--peach);
+  cursor: pointer;
+}
+.creditSection {
+  text-align: center;
+}
+.socialList {
+  list-style: none;
+  padding: 0;
+}
+.logoLink {
+  display: inline-block;
+  margin: 0.5rem 0.75rem;
+}
+.logo {
+  color: var(--red);
+}
+
+/* quiz page */
+
+.questions {
+  text-align: center;
+}
+.options {
+  /* width: 500px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.options > label {
+  padding: 0 0.25em;
+}
+
+.quizButton {
+  display: flex;
+  justify-content: center;
+}
+
+/* hypotenuse */
+h3,
+h4 {
+  margin: 1rem 0;
+}
+
+.areaSection {
+  flex-direction: column;
+}
