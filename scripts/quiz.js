@@ -2,7 +2,7 @@ const form = document.querySelector("#questionForm");
 const quizButton = document.querySelector(".quizButton");
 const answer = document.querySelector(".answer");
 
-const answers = ["B", "C"];
+const answers = ["B", "C", "C", "A", "B", "A", "C", "A", "A", "B", "A"];
 
 const formSubmitHandler = (e) => {
   e.preventDefault();
