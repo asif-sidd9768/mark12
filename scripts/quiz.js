@@ -24,7 +24,7 @@ const calculateScore = (index) => {
   }
 
   // console.log(score);
-  answer.innerHTML = `Score: ${score}/10`;
+  answer.innerHTML = `Score: ${score}/11`;
 };
 
 form.addEventListener("submit", formSubmitHandler);
