@@ -7,3 +7,6 @@ Mathematics could be fun if it's presented in a good way. This app has a bunch o
 
 ## Tech Stack
 > HTML, CSS, JavaScript.
+
+## Demo 
+![alt text](https://i.ibb.co/nDzNSyP/Screenshot-2022-09-22-at-3-41-52-PM.png)
