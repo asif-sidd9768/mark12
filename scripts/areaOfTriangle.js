@@ -7,15 +7,19 @@ const checkButton = document.querySelector("#checkButton");
 const answer = document.querySelector("#answer");
 
 const checkButtonHandler = () => {
+  const first = firstSide.valueAsNumber
+  const second = secondSide.valueAsNumber
+  const third = thirdSide.valueAsNumber
+
   if (
-    firstSide.valueAsNumber > 0 &&
-    secondSide.valueAsNumber > 0 &&
-    thirdSide.valueAsNumber > 0
+    first + second > third &&
+    second + third > first &&
+    first + third >  second
   ) {
     calculateArea(
-      firstSide.valueAsNumber,
-      secondSide.valueAsNumber,
-      thirdSide.valueAsNumber
+      first,
+      second,
+      third
     );
   } else {
     answer.innerText = "Enter valid values";
